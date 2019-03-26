@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/jang_project.iml" filepath="$PROJECT_DIR$/.idea/jang_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Word Counter(First Django Project).iml" filepath="$PROJECT_DIR$/.idea/Word Counter(First Django Project).iml" />
     </modules>
   </component>
 </project>
