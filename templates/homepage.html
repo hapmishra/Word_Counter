@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Counter</title>
+</head>
+<body>
+<h1 style="color:white;text-align:center;background-color:SlateBlue">Word Counter</h1>
+<h2 style="color:white;text-align:center;background-color:SlateBlue">Enter your words below in the textbox</h2>
+<form action="{% url 'count' %}">
+<textarea rows="5" cols="100" name="fulltext" >
+</textarea><br>
+<input type="submit" value="Count">
+
+</form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count</title>
+</head>
+<form action="{% url 'home' %}"><input type="submit" value="Home"></form>
+<h1 style="color:white;background-color:SlateBlue;text-align:center">There are total {{count}} word</h1>
+<h1 style="color:white;background-color:SlateBlue;text-align:center">Your Text</h1>
+{{fulltext}}
+<br>
+<h1 style="color:white;background-color:SlateBlue;text-align:center">Counting for Particular Word</h1><br>
+{% for word,count in dict %}
+{{word}} :-
+{{count}}
+<br>
+{% endfor %}
+<br>
+<a href="{% url 'about' %}">About</a>
+</html>
